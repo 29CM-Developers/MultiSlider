@@ -14,6 +14,7 @@
 		9C070F6049EB3F26F11A5944 /* MultiValueSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 936CCB1F60599F7871A515CE /* MultiValueSlider.swift */; };
 		C56742D59B8259157B947BFC /* SweeterSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 001A714DDCD1D2CAD0D4B9E8 /* SweeterSwift.framework */; };
 		E11FF63B957B62101570E4E9 /* MultiSliderExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F8AACD850AEB0585835B9E /* MultiSliderExtensions.swift */; };
+		F274B8102B26F2B0009C2C15 /* AvailableHapticFeedback.swift in Sources */ = {isa = PBXBuildFile; fileRef = F274B80F2B26F2B0009C2C15 /* AvailableHapticFeedback.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -39,6 +40,7 @@
 		936CCB1F60599F7871A515CE /* MultiValueSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiValueSlider.swift; sourceTree = "<group>"; };
 		B0841ABE57B54F2869E22396 /* MultiSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiSlider.swift; sourceTree = "<group>"; };
 		BAE185E54079BAEE28EB1CE0 /* AvailableHapticFeedback.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AvailableHapticFeedback.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F274B80F2B26F2B0009C2C15 /* AvailableHapticFeedback.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvailableHapticFeedback.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +93,7 @@
 		AB8D2280DB1CEE48F61F92A5 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				F274B8112B26F2E0009C2C15 /* AvailableHapticFeedback */,
 				B0841ABE57B54F2869E22396 /* MultiSlider.swift */,
 				461EBA030884AB290AADCEC0 /* MultiSlider+Drag.swift */,
 				081F1668519E307EBBAE5E94 /* MultiSlider+Internal.swift */,
@@ -106,6 +109,14 @@
 				0BEE510DC8B6815B291F896A /* MultiSlider-Info.plist */,
 			);
 			path = InfoPlists;
+			sourceTree = "<group>";
+		};
+		F274B8112B26F2E0009C2C15 /* AvailableHapticFeedback */ = {
+			isa = PBXGroup;
+			children = (
+				F274B80F2B26F2B0009C2C15 /* AvailableHapticFeedback.swift */,
+			);
+			path = AvailableHapticFeedback;
 			sourceTree = "<group>";
 		};
 		FA12D3F30D257E76F82AFAED /* Project */ = {
@@ -183,6 +194,7 @@
 				65ED7B15595901D9262109BF /* MultiSlider+Drag.swift in Sources */,
 				1C99E61A2D6813B758954210 /* MultiSlider+Internal.swift in Sources */,
 				16F45D0DA39CEDBD94E7A2E6 /* MultiSlider.swift in Sources */,
+				F274B8102B26F2B0009C2C15 /* AvailableHapticFeedback.swift in Sources */,
 				E11FF63B957B62101570E4E9 /* MultiSliderExtensions.swift in Sources */,
 				9C070F6049EB3F26F11A5944 /* MultiValueSlider.swift in Sources */,
 			);
