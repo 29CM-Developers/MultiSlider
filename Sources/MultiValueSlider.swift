@@ -6,7 +6,6 @@
 
 #if canImport(SwiftUI)
 
-import SweeterSwift
 import SwiftUI
 
 /// Slider clone with multiple thumbs and values, range highlight, optional snap intervals, optional value labels.

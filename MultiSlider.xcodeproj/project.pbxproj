@@ -15,6 +15,20 @@
 		C56742D59B8259157B947BFC /* SweeterSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 001A714DDCD1D2CAD0D4B9E8 /* SweeterSwift.framework */; };
 		E11FF63B957B62101570E4E9 /* MultiSliderExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F8AACD850AEB0585835B9E /* MultiSliderExtensions.swift */; };
 		F274B8102B26F2B0009C2C15 /* AvailableHapticFeedback.swift in Sources */ = {isa = PBXBuildFile; fileRef = F274B80F2B26F2B0009C2C15 /* AvailableHapticFeedback.swift */; };
+		F274B8212B26F308009C2C15 /* DateFormatter+Sweeter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F274B8132B26F308009C2C15 /* DateFormatter+Sweeter.swift */; };
+		F274B8222B26F308009C2C15 /* UIApplication+Sweeter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F274B8142B26F308009C2C15 /* UIApplication+Sweeter.swift */; };
+		F274B8232B26F308009C2C15 /* NSObject+Sweeter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F274B8152B26F308009C2C15 /* NSObject+Sweeter.swift */; };
+		F274B8242B26F308009C2C15 /* UITextView+Sweeter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F274B8162B26F308009C2C15 /* UITextView+Sweeter.swift */; };
+		F274B8252B26F308009C2C15 /* UIView+Sweeter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F274B8172B26F308009C2C15 /* UIView+Sweeter.swift */; };
+		F274B8262B26F308009C2C15 /* String+Sweeter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F274B8182B26F308009C2C15 /* String+Sweeter.swift */; };
+		F274B8272B26F308009C2C15 /* NSManagedObjectContext+Sweeter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F274B8192B26F308009C2C15 /* NSManagedObjectContext+Sweeter.swift */; };
+		F274B8282B26F308009C2C15 /* Codable+Sweeter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F274B81A2B26F308009C2C15 /* Codable+Sweeter.swift */; };
+		F274B8292B26F308009C2C15 /* UIStackView+Sweeter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F274B81B2B26F308009C2C15 /* UIStackView+Sweeter.swift */; };
+		F274B82A2B26F308009C2C15 /* Swift+Sweeter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F274B81C2B26F308009C2C15 /* Swift+Sweeter.swift */; };
+		F274B82B2B26F308009C2C15 /* UIViewController+Sweeter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F274B81D2B26F308009C2C15 /* UIViewController+Sweeter.swift */; };
+		F274B82C2B26F308009C2C15 /* TimeInterval+Sweeter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F274B81E2B26F308009C2C15 /* TimeInterval+Sweeter.swift */; };
+		F274B82D2B26F308009C2C15 /* NSAttributedString+Sweeter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F274B81F2B26F308009C2C15 /* NSAttributedString+Sweeter.swift */; };
+		F274B82E2B26F308009C2C15 /* Bundle+Sweeter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F274B8202B26F308009C2C15 /* Bundle+Sweeter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -41,6 +55,20 @@
 		B0841ABE57B54F2869E22396 /* MultiSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiSlider.swift; sourceTree = "<group>"; };
 		BAE185E54079BAEE28EB1CE0 /* AvailableHapticFeedback.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AvailableHapticFeedback.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F274B80F2B26F2B0009C2C15 /* AvailableHapticFeedback.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvailableHapticFeedback.swift; sourceTree = "<group>"; };
+		F274B8132B26F308009C2C15 /* DateFormatter+Sweeter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DateFormatter+Sweeter.swift"; sourceTree = "<group>"; };
+		F274B8142B26F308009C2C15 /* UIApplication+Sweeter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIApplication+Sweeter.swift"; sourceTree = "<group>"; };
+		F274B8152B26F308009C2C15 /* NSObject+Sweeter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSObject+Sweeter.swift"; sourceTree = "<group>"; };
+		F274B8162B26F308009C2C15 /* UITextView+Sweeter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextView+Sweeter.swift"; sourceTree = "<group>"; };
+		F274B8172B26F308009C2C15 /* UIView+Sweeter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Sweeter.swift"; sourceTree = "<group>"; };
+		F274B8182B26F308009C2C15 /* String+Sweeter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Sweeter.swift"; sourceTree = "<group>"; };
+		F274B8192B26F308009C2C15 /* NSManagedObjectContext+Sweeter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSManagedObjectContext+Sweeter.swift"; sourceTree = "<group>"; };
+		F274B81A2B26F308009C2C15 /* Codable+Sweeter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Codable+Sweeter.swift"; sourceTree = "<group>"; };
+		F274B81B2B26F308009C2C15 /* UIStackView+Sweeter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIStackView+Sweeter.swift"; sourceTree = "<group>"; };
+		F274B81C2B26F308009C2C15 /* Swift+Sweeter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Swift+Sweeter.swift"; sourceTree = "<group>"; };
+		F274B81D2B26F308009C2C15 /* UIViewController+Sweeter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Sweeter.swift"; sourceTree = "<group>"; };
+		F274B81E2B26F308009C2C15 /* TimeInterval+Sweeter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TimeInterval+Sweeter.swift"; sourceTree = "<group>"; };
+		F274B81F2B26F308009C2C15 /* NSAttributedString+Sweeter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSAttributedString+Sweeter.swift"; sourceTree = "<group>"; };
+		F274B8202B26F308009C2C15 /* Bundle+Sweeter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Bundle+Sweeter.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +121,7 @@
 		AB8D2280DB1CEE48F61F92A5 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				F274B8122B26F2FC009C2C15 /* SweeterSwift */,
 				F274B8112B26F2E0009C2C15 /* AvailableHapticFeedback */,
 				B0841ABE57B54F2869E22396 /* MultiSlider.swift */,
 				461EBA030884AB290AADCEC0 /* MultiSlider+Drag.swift */,
@@ -117,6 +146,27 @@
 				F274B80F2B26F2B0009C2C15 /* AvailableHapticFeedback.swift */,
 			);
 			path = AvailableHapticFeedback;
+			sourceTree = "<group>";
+		};
+		F274B8122B26F2FC009C2C15 /* SweeterSwift */ = {
+			isa = PBXGroup;
+			children = (
+				F274B8202B26F308009C2C15 /* Bundle+Sweeter.swift */,
+				F274B81A2B26F308009C2C15 /* Codable+Sweeter.swift */,
+				F274B8132B26F308009C2C15 /* DateFormatter+Sweeter.swift */,
+				F274B81F2B26F308009C2C15 /* NSAttributedString+Sweeter.swift */,
+				F274B8192B26F308009C2C15 /* NSManagedObjectContext+Sweeter.swift */,
+				F274B8152B26F308009C2C15 /* NSObject+Sweeter.swift */,
+				F274B8182B26F308009C2C15 /* String+Sweeter.swift */,
+				F274B81C2B26F308009C2C15 /* Swift+Sweeter.swift */,
+				F274B81E2B26F308009C2C15 /* TimeInterval+Sweeter.swift */,
+				F274B8142B26F308009C2C15 /* UIApplication+Sweeter.swift */,
+				F274B81B2B26F308009C2C15 /* UIStackView+Sweeter.swift */,
+				F274B8162B26F308009C2C15 /* UITextView+Sweeter.swift */,
+				F274B8172B26F308009C2C15 /* UIView+Sweeter.swift */,
+				F274B81D2B26F308009C2C15 /* UIViewController+Sweeter.swift */,
+			);
+			path = SweeterSwift;
 			sourceTree = "<group>";
 		};
 		FA12D3F30D257E76F82AFAED /* Project */ = {
@@ -191,12 +241,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F274B8262B26F308009C2C15 /* String+Sweeter.swift in Sources */,
+				F274B8292B26F308009C2C15 /* UIStackView+Sweeter.swift in Sources */,
+				F274B8232B26F308009C2C15 /* NSObject+Sweeter.swift in Sources */,
 				65ED7B15595901D9262109BF /* MultiSlider+Drag.swift in Sources */,
 				1C99E61A2D6813B758954210 /* MultiSlider+Internal.swift in Sources */,
+				F274B82B2B26F308009C2C15 /* UIViewController+Sweeter.swift in Sources */,
+				F274B82A2B26F308009C2C15 /* Swift+Sweeter.swift in Sources */,
+				F274B8222B26F308009C2C15 /* UIApplication+Sweeter.swift in Sources */,
 				16F45D0DA39CEDBD94E7A2E6 /* MultiSlider.swift in Sources */,
+				F274B8212B26F308009C2C15 /* DateFormatter+Sweeter.swift in Sources */,
+				F274B8252B26F308009C2C15 /* UIView+Sweeter.swift in Sources */,
+				F274B82E2B26F308009C2C15 /* Bundle+Sweeter.swift in Sources */,
 				F274B8102B26F2B0009C2C15 /* AvailableHapticFeedback.swift in Sources */,
 				E11FF63B957B62101570E4E9 /* MultiSliderExtensions.swift in Sources */,
+				F274B8272B26F308009C2C15 /* NSManagedObjectContext+Sweeter.swift in Sources */,
 				9C070F6049EB3F26F11A5944 /* MultiValueSlider.swift in Sources */,
+				F274B8282B26F308009C2C15 /* Codable+Sweeter.swift in Sources */,
+				F274B8242B26F308009C2C15 /* UITextView+Sweeter.swift in Sources */,
+				F274B82D2B26F308009C2C15 /* NSAttributedString+Sweeter.swift in Sources */,
+				F274B82C2B26F308009C2C15 /* TimeInterval+Sweeter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
