@@ -9,10 +9,8 @@
 /* Begin PBXBuildFile section */
 		16F45D0DA39CEDBD94E7A2E6 /* MultiSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0841ABE57B54F2869E22396 /* MultiSlider.swift */; };
 		1C99E61A2D6813B758954210 /* MultiSlider+Internal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 081F1668519E307EBBAE5E94 /* MultiSlider+Internal.swift */; };
-		2A3FE9BA36D8179DA0E6926C /* AvailableHapticFeedback.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAE185E54079BAEE28EB1CE0 /* AvailableHapticFeedback.framework */; };
 		65ED7B15595901D9262109BF /* MultiSlider+Drag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461EBA030884AB290AADCEC0 /* MultiSlider+Drag.swift */; };
 		9C070F6049EB3F26F11A5944 /* MultiValueSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 936CCB1F60599F7871A515CE /* MultiValueSlider.swift */; };
-		C56742D59B8259157B947BFC /* SweeterSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 001A714DDCD1D2CAD0D4B9E8 /* SweeterSwift.framework */; };
 		E11FF63B957B62101570E4E9 /* MultiSliderExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F8AACD850AEB0585835B9E /* MultiSliderExtensions.swift */; };
 		F274B8102B26F2B0009C2C15 /* AvailableHapticFeedback.swift in Sources */ = {isa = PBXBuildFile; fileRef = F274B80F2B26F2B0009C2C15 /* AvailableHapticFeedback.swift */; };
 		F274B8212B26F308009C2C15 /* DateFormatter+Sweeter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F274B8132B26F308009C2C15 /* DateFormatter+Sweeter.swift */; };
@@ -76,8 +74,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2A3FE9BA36D8179DA0E6926C /* AvailableHapticFeedback.framework in Frameworks */,
-				C56742D59B8259157B947BFC /* SweeterSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
